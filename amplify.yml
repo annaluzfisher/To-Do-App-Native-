@@ -23,6 +23,7 @@ frontend:
     build:
       commands:
         - 'expo build:web'
+        - 'npm run start'
   artifacts:
     baseDirectory: web-build
     files:
